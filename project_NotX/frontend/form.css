@@ -1,0 +1,131 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(60, 67, 55);
+}
+
+#loginform {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    border: none;
+    box-shadow: #2f2f2f 0px 4px 12px;
+    background-color: rgb(178, 171, 171);
+
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #232323;
+}
+
+input,
+select {
+    border-radius: 6px;
+    border: 1.5px solid #e1e1e1;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: #b6b1b1;
+
+}
+
+input:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+#loginbtn {
+    background-color: rgb(103, 103, 196);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#loginbtn:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+    transform: translateY(-2px);
+}
+
+#loginbtn:active {
+    transform: translateY(-3px);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+#signupform {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(178, 171, 171);
+}
+
+#signupform h2 {
+    text-align: center;
+    margin-top: 0;
+    color: #14171a;
+    font-size: 24px;
+}
+
+gender-container {
+    margin: 15px 0;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #015b92;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.2s, transform 0.1s;
+}
+
+input[type="submit"]:hover {
+    background-color: #1991db;
+}
+
+input[type="submit"]:active {
+    transform: scale(0.98);
+}
